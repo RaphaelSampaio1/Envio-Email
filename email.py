@@ -5,11 +5,11 @@ from email.mime.multipart import MIMEMultipart
 #Configurações do servidor SMTP
 server_smtp = "smtp-mail.outlook.com"
 port = 587
-sender_email = "raphaelsantos.jan@gmail.com"
-password = "24raphael01"
+sender_email = "seuemail@gmail.com"
+password = "SenhaDoSeuEmail"
 
 #Configurações do e-mail
-receive_email ="raphaelsantos.jan@gmail.com"
+receive_email ="EmailDeEnvio@gmail.com"
 subject = "E-mail automático tudo com Programação"
 body = """ 
 <p> Esse email está sendo enviado com foco em testes </p>
